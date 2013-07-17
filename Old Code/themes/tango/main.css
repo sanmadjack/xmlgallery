@@ -1,0 +1,58 @@
+/* 
+    Document   : tango
+    Created on : Apr 9, 2009, 4:58:17 PM
+    Author     : SanMadJack
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   The default theme for Montag
+*/
+
+body {
+    background-color:#eeeeec;
+}
+
+div.menu {
+    position:absolute;
+    top:10px;
+    left:10px;
+    width:100px;
+    border:solid 1px black;
+    
+}
+
+div.body {
+    position:absolute;
+    top:10px;
+    right:10px;
+    left:120px;
+    border:solid 1px black;
+}
+
+div.debug_console {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    height:5px;
+    overflow:hidden;
+    background-color:black;
+    opacity:0.8;
+    z-index:1;
+    padding-left:3px;
+}
+div.new_error {
+    background-color:#cc0000;
+}
+div.debug_console:hover {
+    height:50%;
+    overflow:scroll;
+}
+div.error {
+    color:#cc0000;
+}
+div.success {
+    color:#73d216;
+}

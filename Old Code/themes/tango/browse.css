@@ -1,0 +1,19 @@
+/* 
+    Document   : browse
+    Created on : Apr 9, 2009, 5:35:44 PM
+    Author     : Student
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+div.gallery_item {
+    width:150px;
+    height:150px;
+    float:left;
+}
+
